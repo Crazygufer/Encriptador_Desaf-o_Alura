@@ -4,6 +4,7 @@ Descripción
 Este proyecto es un encriptador de texto simple, diseñado con un estilo programación SCI-FI inspirado en una temática clásica de "hacker" de película. Permite encriptar y desencriptar texto utilizando reglas específicas, ideal para aprender sobre manipulación de cadenas en JavaScript, diseño en CSS y estructura de HTML.
 
 Estado del Proyecto
+
 ✅ Proyecto finalizado
 
 Tecnologías Utilizadas
