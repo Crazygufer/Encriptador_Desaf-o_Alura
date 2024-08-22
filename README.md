@@ -23,4 +23,4 @@ Cómo Usar
 - Presiona el botón para procesar el texto
 
 Autor
-Desarrollado por Franco Paredes Saldaño alias Crazygufer 😊
+- Desarrollado por Franco Paredes Saldaño alias Crazygufer 😊
