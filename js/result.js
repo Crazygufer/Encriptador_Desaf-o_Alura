@@ -1,4 +1,3 @@
-// result.js
 
 document.addEventListener("DOMContentLoaded", function() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -15,7 +14,9 @@ document.getElementById("copy-btn").addEventListener("click", function() {
 
 document.getElementById("invert-btn").addEventListener("click", function() {
     let outputText = document.getElementById("output-text").value;
-    let invertedText = outputText.includes("enter") ? decrypt(outputText) : encrypt(outputText);
+    let invertedText = outputText.includes("enter") || outputText.includes("imes") || outputText.includes("ai") || outputText.includes("ober") || outputText.includes("ufat")
+        ? decrypt(outputText)
+        : encrypt(outputText);
     document.getElementById("output-text").value = invertedText;
 });
 

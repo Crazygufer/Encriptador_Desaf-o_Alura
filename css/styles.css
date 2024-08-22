@@ -105,6 +105,20 @@ textarea {
     font-family: inherit;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'OCR A Std', 'Courier New', Courier, monospace;
+    z-index: 2;
+    font-size: 0.9rem;
+}
+
+
 /* Media Queries para Responsividad */
 
 /* Dispositivos grandes (laptops, desktops) */
