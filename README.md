@@ -7,9 +7,9 @@ Estado del Proyecto
 ✅ Proyecto finalizado
 
 Tecnologías Utilizadas
-HTML5
-CSS3
-JavaScript
+- HTML5
+- CCS3
+- JavaScript
 
 Funcionalidades
 - Encriptación y desencriptación de texto.
