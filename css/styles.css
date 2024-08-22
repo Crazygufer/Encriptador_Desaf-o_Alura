@@ -1,9 +1,16 @@
 /* styles.css */
 
+@font-face {
+    font-family: 'OCR A Std';
+    src: url('../assets/fonts/OCRAStd.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace; /* Similar al que uso para el código */
-    background: linear-gradient(to bottom, #00008B, #000000); /* Degradado de azul a negro */
+    font-family: 'OCR A Std', 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, #00008B, #000000);
     color: white;
     display: flex;
     flex-direction: column;
@@ -11,6 +18,25 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
+
+button {
+    font-family: 'OCR A Std', 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00FF00; /* Verde fosforescente */
+    color: black;
+}
+
 
 h1 {
     text-align: center;
