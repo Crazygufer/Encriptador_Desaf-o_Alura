@@ -4,30 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Encriptador de Texto</h1>
-    </header>
+        <div class="encryption-container">
+            <div class="mode-buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+            </div>
+            <textarea id="input-text" placeholder="Ingresa el texto aquí..." autofocus></textarea>
+            <button id="action-btn">Procesar</button>
+        </div>
+    </div>
 
-    <main>
-        <section id="input-section">
-            <textarea id="input-text" placeholder="Ingresa el texto aquí..."></textarea>
-            <button id="encrypt-btn">Encriptar</button>
-            <button id="decrypt-btn">Desencriptar</button>
-        </section>
-
-        <section id="output-section">
-            <textarea id="output-text" readonly placeholder="El texto encriptado aparecerá aquí..."></textarea>
-            <button id="copy-btn">Copiar al portapapeles</button>
-        </section>
-    </main>
-
-    <footer>
-        <p>Desarrollado por [Tu Nombre]</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
