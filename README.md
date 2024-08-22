@@ -18,9 +18,9 @@ Funcionalidades
 - Posibilidad de copiar el texto encriptado/desencriptado al portapapeles.
 
 Cómo Usar
-1- Ingresa el texto en el cuadro.
-2- Selecciona si deseas encriptar o desencriptar.
-3- Presiona el botón para procesar el texto.
+- Ingresa el texto en el cuadro.
+- Selecciona si deseas encriptar o desencriptar
+- Presiona el botón para procesar el texto
 
 Autor
 Desarrollado por Franco Paredes Saldaño alias Crazygufer 😊
